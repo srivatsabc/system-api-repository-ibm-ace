@@ -1,0 +1,23 @@
+[2019/11/30/12:58:38] [INFO] CommandProcessor: process { mqsicreatebar arguments: } 
+[2019/11/30/12:58:38] [INFO] CommandProcessor: process { [-showlocation, -b, C:\IBM\ibmace_workspace\system-api-repository-ibm-ace\country_locator_app_001\target\ace\country_locator_app_001.bar, -cleanBuild, -a, country_locator_app_001, -deployAsSource, -trace, -v, C:\IBM\ibmace_workspace\system-api-repository-ibm-ace\country_locator_app_001\target\createbartrace.txt, -wmbtData] } 
+[2019/11/30/12:58:39] [INFO] CommandProcessor: process { Disable auto-build before opening the projects } 
+[2019/11/30/12:58:39] [INFO] CommandProcessor: openWorkspace {  } 
+[2019/11/30/12:58:39] [INFO] CommandProcessor: openWorkspace { List of applications to be processed: country_locator_app_001 } 
+[2019/11/30/12:58:39] [INFO] CommandProcessor: process { Enable auto-build after the projects are opened } 
+[2019/11/30/12:58:39] [INFO] CommandProcessor: waitForBuildsToComplete { Waiting for build to complete } 
+[2019/11/30/12:58:55] [INFO] CommandProcessor: process { Building projects in the workspace } 
+[2019/11/30/12:58:56] [INFO] CommandProcessor: waitForBuildsToComplete { Waiting for build to complete } 
+[2019/11/30/12:59:08] [INFO] CommandProcessor: cleanBuildProjects { Done cleaning projects } 
+[2019/11/30/12:59:08] [INFO] CommandProcessor: waitForBuildsToComplete { Waiting for build to complete } 
+[2019/11/30/12:59:19] [INFO] CommandProcessor: process { Check the workspace error } 
+[2019/11/30/12:59:19] [INFO] CommandProcessor: doCompile {  } 
+[2019/11/30/12:59:19] [INFO] AddToBARFileOperation: barGeneratorDelegate { Adding country_locator_app_001/.project to BAR file } 
+[2019/11/30/12:59:19] [INFO] ApplicationAddOperation: barGeneratorDelegate { Adding country_locator_app_001/gen/country_locator_app_001.msgflow to BAR file } 
+[2019/11/30/12:59:19] [INFO] ApplicationAddOperation: barGeneratorDelegate { Adding country_locator_app_001/country_locator_app_001.json to BAR file } 
+[2019/11/30/12:59:19] [INFO] ApplicationAddOperation: barGeneratorDelegate { Adding country_locator_app_001/getByCountryCode.subflow to BAR file } 
+[2019/11/30/12:59:19] [INFO] ApplicationAddOperation: barGeneratorDelegate { Adding country_locator_app_001/getByCountryCode_Compute.esql to BAR file } 
+[2019/11/30/12:59:19] [INFO] ApplicationAddOperation: barGeneratorDelegate { Adding country_locator_app_001/pom.xml to BAR file } 
+[2019/11/30/12:59:19] [INFO] ApplicationAddOperation: barGeneratorDelegate { Adding country_locator_app_001/restapi.descriptor to BAR file } 
+[2019/11/30/12:59:19] [INFO] ApplicationAddOperation: barGeneratorDelegate { Adding country_locator_app_001/restapi.descriptor to BAR file } 
+[2019/11/30/12:59:19] [INFO] CommandProcessor: saveBar {  } 
+[2019/11/30/12:59:19] [INFO] CommandProcessor: closeWorkspace {  } 
